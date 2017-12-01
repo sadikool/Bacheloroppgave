@@ -1,0 +1,96 @@
+
+* {margin: 0; padding: 0;}
+ 
+a {text-decoration: none;}
+ 
+/* This class is added on scroll */
+.fixed {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    z-index: 1;
+}
+ 
+body {
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    text-align: center;
+}
+p {
+    font-size: 100%;
+}
+.title {
+    font-size: 150%;
+}
+.subtitle{
+	font-size:125%
+}
+/* Font Face Settings */
+@font-face {
+    font-family: 'open-sans-bold';
+    src: url('../fonts/open-sans/OpenSans-Bold.eot');
+    src: url('../fonts/open-sans/OpenSans-Bold.eot?iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/OpenSans-Bold.ttf');
+    font-weight: normal;
+}
+ 
+/* Navigation Settings */
+nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: #fff;
+}
+ 
+nav li {
+    display: inline-block;
+    padding: 24px 10px;
+}
+ 
+nav li a {
+    color: #757575;
+    text-transform: uppercase;
+}
+ 
+section {
+    height: 100vh;
+}
+ 
+/* Screens Settings */
+#screen1 {
+    background: #18121E;
+}
+ 
+#screen1 p {
+    padding-top: 200px;
+}
+ 
+#screen2 {
+    background: #233237;
+}
+ 
+#screen3 {
+    background: #984B43;
+}
+ #screen4 {
+    background: #EAC67A;
+}
+@media only screen and (max-width: 520px) {
+ 
+    nav li {
+        padding: 24px 4px;
+    }
+ 
+    nav li a {
+        font-size: 18px;
+    }
+ 
+}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;border:none;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-cqf8{background-color:#ffffff;color:#666699;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
