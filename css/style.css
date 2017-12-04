@@ -1,176 +1,208 @@
-.pure-img-responsive {
-    max-width: 100%;
-    height: auto;
-}
-
-* {margin: 0; padding: 0;}
- 
-a {text-decoration: none;}
- 
-/* This class is added on scroll */
-.fixed {
-    position: fixed;
-    top: 0;
-    height: 70px;
-    z-index: 1;
-}
-
-body {
-    color: #fff;
- 	 font-family: 'Roboto Slab'; 
-    font-size: 18px;
-    text-align: center;
-}
-.contact {
-	margin: 2em;
-	color: black;
-}
-
-p {
-    font-size: 100%;
-}
-.title {
-    font-size: 150%;
-}
-.subtitle{
-	font-size:125%
-}
-/* Font Face Settings */
-@font-face {
-    font-family: 'open-sans-bold';
-    src: url('../fonts/open-sans/OpenSans-Bold.eot');
-    src: url('../fonts/open-sans/OpenSans-Bold.eot?iefix') format('embedded-opentype'),
-         url('../fonts/open-sans/OpenSans-Bold.ttf');
-    font-weight: normal;
-}
- 
-/* Navigation Settings */
-nav {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    background: #fff;
-}
- 
-nav li {
-    display: inline-block;
-    padding: 24px 10px;
-}
- 
-nav li a {
-    color: #757575;
-    text-transform: uppercase;
-}
-
-section {
-    height: 100vh;
-}
-
-/* Screens Settings */
-#screen1 {
-   background: #1f8dd6;
-}
- 
-#screen1 p {
-    padding-top: 200px;
-}
- 
-#screen2 {
-    background: #03445e;
-
-
-}
- .pdf{
-	width: 50%;
-	height: 75%;
-    margin-left: auto;
-    margin-right: auto;
- }
-#screen3 {
-    background: #051847;
-}
- #screen4 {
-    background: #EAC67A;
-}
-#screen5 {
-    background: #051847;
-}
-@media only screen and (max-width: 520px) {
- 
-    nav li {
-        padding: 24px 4px;
-    }
- 
-    nav li a {
-        font-size: 18px;
-    }
- 
-}
-table{
-	text-align: left;
-	margin: 2em 0 1em;
-	width: auto;
-    margin-left: auto;
-    margin-right: auto;
-	
-
-}
-.pure-menu-children{
-	text-align: left;
-}
-.pure-group{
-	color: black;
-	text-align: left;
-}
-aside {
-    background: #1f8dd6; /* same color as selected state on site menu */
-    padding: 0.3em 1em;
-    border-radius: 3px;
-    color: #fff;
-    margin-bottom: 2em;
-	
-}
-
-/*Contact form*/
-textarea {
-  width: 100%;
+  .pure-img-responsive {
+	  max-width: 100%;
+	  height: auto;
+  }
   
+  * {margin: 0; padding: 0;}
+   
+  a {text-decoration: none;color: rgb(61, 146, 201);}
+ 
+a:hover,
+a:focus {
+    text-decoration: underline;
+	 
 }
-.content-head {
+   
+  /* This class is added on scroll */
+  .fixed {
+	  position: fixed;
+	  top: 0;
+	  height: 70px;
+	  z-index: 1;
+  }
+  
+  body {
+	  color: #fff;
+	   font-family: "Roboto Slab"; 
+	  font-size: 18px;
+	  text-align: center;
+  }
+    /*
+    When setting the primary font stack, apply it to the Pure grid units along
+    with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
+    specific font stacks to ensure the greatest OS/browser compatibility.
+    */
+  html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+        /* Set your content font stack here: */
+        font-family: "Roboto Slab", Times, "Times New Roman", serif;
+		font-style: normal;
   font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin: 2em 0 1em;
-}
-.is-center {
-  text-align: center;
-}
-.button-success {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background: rgb(28, 184, 65); /* this is a green */
-}
-.button-xlarge {
-  font-size: 125%;
-}
-button {
-  float: right;
-}
-
-.formLabelColor{
-	color: white;
-}
-
-#name, #email {
-  width: 50%;
+  src: url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.svg#RobotoSlab') format('svg'); /* Legacy iOS */
+    }
+	
+	
+  .contact {
+	  margin: 2em;
+	  color: black;
+  }
   
+  p {
+	  font-size: 100%;
+  }
+  .title {
+	  font-size: 150%;
+  }
+  .subtitle{
+	  font-size:125%
+  }
+  /* roboto-slab-regular - latin_latin-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.svg#RobotoSlab') format('svg'); /* Legacy iOS */
 }
-
-.picIDs{
-	color: black;
-}
-
-
-
+   
+  /* Navigation Settings */
+  nav {
+	  position: absolute;
+	  top: 0;
+	  width: 100%;
+	  height: 70px;
+	  background: #fff;
+  }
+   
+  nav li {
+	  display: inline-block;
+	  padding: 24px 10px;
+  }
+   
+  nav li a {
+	  color: #757575;
+	  text-transform: uppercase;
+  }
+  
+  section {
+	  height: 100vh;
+  }
+  
+  /* Screens Settings */
+  #screen1 {
+	 background: #1f8dd6;
+  }
+   
+  #screen1 p {
+	  padding-top: 200px;
+  }
+   
+  #screen2 {
+	  background: #03445e;
+  
+  
+  }
+   .pdf{
+	  width: 50%;
+	  height: 75%;
+	  margin-left: auto;
+	  margin-right: auto;
+   }
+  #screen3 {
+	  background: #051847;
+  }
+   #screen4 {
+	  background: #EAC67A;
+  }
+  #screen5 {
+	  background: #051847;
+  }
+  @media only screen and (max-width: 520px) {
+   
+	  nav li {
+		  padding: 24px 4px;
+	  }
+   
+	  nav li a {
+		  font-size: 18px;
+	  }
+   
+  }
+  table{
+	  text-align: left;
+	  margin: 2em 0 1em;
+	  width: auto;
+	  margin-left: auto;
+	  margin-right: auto;
+	  
+  
+  }
+  .pure-menu-children{
+	  text-align: left;
+  }
+  .pure-group{
+	  color: black;
+	  text-align: left;
+  }
+  aside {
+	  background: #1f8dd6; /* same color as selected state on site menu */
+	  padding: 0.3em 1em;
+	  border-radius: 3px;
+	  color: #fff;
+	  margin-bottom: 2em;
+	  
+  }
+  
+  /*Contact form*/
+  textarea {
+	width: 100%;
+	
+  }
+  .content-head {
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin: 2em 0 1em;
+  }
+  .is-center {
+	text-align: center;
+  }
+  .button-success {
+	color: white;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	background: rgb(28, 184, 65); /* this is a green */
+  }
+  .button-xlarge {
+	font-size: 125%;
+  }
+  button {
+	float: right;
+  }
+  
+  .formLabelColor{
+	  color: white;
+  }
+  
+  #name, #email {
+	width: 50%;
+	
+  }
+  
+  .picIDs{
+	  color: black;
+  }
+  
+  
+  
