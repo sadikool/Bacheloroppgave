@@ -54,6 +54,7 @@
                     </li>
 
                 </ul>
+<<<<<<< HEAD
             </nav>
         </section>
     </div>
@@ -229,6 +230,179 @@
             });
         });
     </script>
+=======
+             </li>  
+	 		<li class="pure-menu-item pure-menu-selected"><a href="#screen4" class="pure-menu-link">Gruppe 2</a></li>
+           	<li class="pure-menu-item pure-menu-selected"><a href="#screen5" class="pure-menu-link">Kontakt</a></li>
+                	
+		</ul>
+	</nav>
+</section>
+
+<section id="screen2"><br><br><br><br><br><br>
+
+    <object data="docs/statusrapport.pdf"" type="application/pdf" class="pdf">
+<a href="docs/statusrapport.pdf"">statusrapport.pdf"</a>
+</object>
+<aside id="s2">
+<p >Statusrapporten for bachelorprosjektet</p>
+</aside>
+
+</section>
+<section id="screen3"><br><br><br><br><br><br>
+
+    <object data="docs/prosjektskissen.pdf"" type="application/pdf" class="pdf">
+<a href="docs/prosjektskissen.pdf"">prosjektskissen.pdf"</a>
+</object>
+<aside>
+<p>Prosjektskissen for bachelorprosjektet</p>
+</aside>
+
+</section>
+<section id="screen4"><br><br><br><br>
+<aside>
+<p>Medlemmer i gruppe 2</p>
+</aside>
+
+<div class="pure-g">​
+	<div class="pure-u-1-4">​
+		<img src="img/ali" alt="ali" class="pure-img">​
+        <p class="picIDs"><b>1</b></p>​
+	</div>
+    <div class="pure-u-1-4">​
+		<img src="img/noPic.png" alt="mushraff" class="pure-img">​
+        <p class="picIDs"><b>2</b></p>​
+	</div>
+    <div class="pure-u-1-4">​
+		<img src="img/sadiq" alt="sadiq" class="pure-img">​
+        <p class="picIDs"><b>3</b></p>​
+        <p class="picIDs"><em>Prosjektleder</em></p>​
+	</div>
+    <div class="pure-u-1-4">​
+		<img src="img/noPic.png" alt="aisha" class="pure-img">​
+        <p class="picIDs"><b>4</b></p>​
+	</div>
+</div>
+ 
+<br>   
+<aside>
+<table class="pure-table pure-table-horizontal">
+    <thead>
+        <tr>
+        	<th>#</th>
+            <th>Fornavn</th>
+            <th>Etternavn</th>
+            <th>Klasse</th>
+            
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+        	<td>1</td>
+            <td>Ali</td>
+            <td>Akbari</td>
+            <td>HINGDATA</td>
+        </tr>
+
+        <tr>
+        	<td>2</td>
+            <td>Mushrraf</td>
+            <td>Hussain</td>
+            <td>ANVDATA</td>
+        </tr>
+
+        <tr>
+        	<td>3</td>
+            <td>Sadiq</td>
+            <td>Islam</td>
+            <td>HINGDATA</td>
+        </tr>
+           <tr>
+           	<td>4</td>
+            <td>Aisha</td>
+            <td>Nasir</td>
+            <td>HINGDATA</td>
+        </tr>
+    </tbody>
+</table>
+</aside>
+</section>
+
+<section id="screen5"><br>
+<div id="contact">
+  <h2 class="content-head is-center">Kontakt oss!</h2>
+  <aside>
+       <p>
+           Har du noen spørsmål? </p>
+           <p>Vennligst bruk <b><em>Kontaktskjemaet</em></b>
+           for å sende oss en beskjed.
+       </p>
+   </aside>
+
+<form id="gform" method="POST" 
+action="https://script.google.com/macros/s/AKfycbxMcBQVe2dOp_u_zWF0SnrtIL6xjQVfEFBUN7Kkga6pO61N4hU/exec">
+
+<fieldset class="pure-group">
+      <label for="name" class="formLabelColor">Navn: </label>
+      <input id="name" name="name" placeholder="Hva mamman din kaller deg" />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="message" class="formLabelColor">Beskjed: </label>
+      <textarea id="message" name="message" rows="10"
+      placeholder="Fortell oss hva du tenker på..."></textarea>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="email" class="formLabelColor"><em>Din</em> epost adresse:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="ditt.navn@epost.com"/>
+      <span id="email-invalid" style="display:none">
+        Must be a valid email address</span>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="color" class="formLabelColor">Favorit farge: </label>
+      <input id="color" name="color" placeholder="blå" />
+    </fieldset>
+
+    <button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+  </form>
+
+   <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Takk</em> for beskjeden!
+      Vi svarer snart tilbake!</h2>
+  </div>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+<!-- END -->
+</div>
+</section>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+   $(document).ready(function(){
+	   $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() - 70;
+			 if ($(window).scrollTop() > navHeight) {
+				 $('nav').addClass('fixed');
+			 }
+			 else {
+				 $('nav').removeClass('fixed');
+			 }
+		});
+	});
+</script>
+>>>>>>> 3fb9db84e939259d71e5f79587be5e4aebd2100b
 
 </body>
 </html>
