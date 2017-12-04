@@ -30,24 +30,29 @@ p {
     font-size: 100%;
 }
 .title {
-    font-size: 150%;
+    font-size: 180%;
 }
 .subtitle{
 	font-size:125%
 }
-/* Font Face Settings */
+/* roboto-slab-regular - latin_latin-ext */
 @font-face {
-    font-family: 'open-sans-bold';
-    src: url('../fonts/open-sans/OpenSans-Bold.eot');
-    src: url('../fonts/open-sans/OpenSans-Bold.eot?iefix') format('embedded-opentype'),
-         url('../fonts/open-sans/OpenSans-Bold.ttf');
-    font-weight: normal;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.svg#RobotoSlab') format('svg'); /* Legacy iOS */
 }
  
 /* Navigation Settings */
 nav {
     position: absolute;
-    bottom: 100;
+    top: 0;
     width: 100%;
     height: 70px;
     background: #fff;
