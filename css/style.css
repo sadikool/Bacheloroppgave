@@ -1,3 +1,7 @@
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
 
 * {margin: 0; padding: 0;}
  
@@ -10,13 +14,18 @@ a {text-decoration: none;}
     height: 70px;
     z-index: 1;
 }
- 
+
 body {
     color: #fff;
-    font-family: 'Helvetica';
+ 	 font-family: 'Roboto Slab'; 
     font-size: 18px;
     text-align: center;
 }
+.contact {
+	margin: 2em;
+	color: black;
+}
+
 p {
     font-size: 100%;
 }
@@ -38,7 +47,7 @@ p {
 /* Navigation Settings */
 nav {
     position: absolute;
-    bottom: 0;
+    top: 0;
     width: 100%;
     height: 70px;
     background: #fff;
@@ -53,14 +62,14 @@ nav li a {
     color: #757575;
     text-transform: uppercase;
 }
- 
+
 section {
     height: 100vh;
 }
- 
+
 /* Screens Settings */
 #screen1 {
-    background: #18121E;
+   background: #1f8dd6;
 }
  
 #screen1 p {
@@ -68,14 +77,24 @@ section {
 }
  
 #screen2 {
-    background: #233237;
+    background: #03445e;
+
+
 }
- 
+ .pdf{
+	width: 50%;
+	height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+ }
 #screen3 {
-    background: #984B43;
+    background: #051847;
 }
  #screen4 {
     background: #EAC67A;
+}
+#screen5 {
+    background: #051847;
 }
 @media only screen and (max-width: 520px) {
  
@@ -88,9 +107,70 @@ section {
     }
  
 }
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;border:none;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
-.tg .tg-cqf8{background-color:#ffffff;color:#666699;vertical-align:top}
-.tg .tg-yw4l{vertical-align:top}
-.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}
+table{
+	text-align: left;
+	margin: 2em 0 1em;
+	width: auto;
+    margin-left: auto;
+    margin-right: auto;
+	
+
+}
+.pure-menu-children{
+	text-align: left;
+}
+.pure-group{
+	color: black;
+	text-align: left;
+}
+aside {
+    background: #1f8dd6; /* same color as selected state on site menu */
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;
+	
+}
+
+/*Contact form*/
+textarea {
+  width: 100%;
+  
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  float: right;
+}
+
+.formLabelColor{
+	color: white;
+}
+
+#name, #email {
+  width: 50%;
+  
+}
+
+.picIDs{
+	color: black;
+}
+
+
+
