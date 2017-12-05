@@ -1,129 +1,47 @@
-<<<<<<< HEAD
-  .pure-img-responsive {
+/*Group member drop down menus*/
+#w {
+	text-decoration:none;
+}
+/* Spire in header text*/
+#screen1 #title a{
+	color: #8EBC08;
+}
+
+#screen1 #title a:hover {
+	color: #fff;
+}
+
+/*PDF view properties*/
+.inView{
+	  width: 100%;
+	  height: 850px;
+	  margin-left: auto;
+	  margin-right: auto;
+   }
+ 
+ /*image view properties*/
+.pure-img {
 	  max-width: 100%;
 	  height: auto;
-  }
-  
-  * {margin: 0; padding: 0;}
-   
-  a {text-decoration: none;color: rgb(61, 146, 201);}
-=======
-.pure-img-responsive {
-    max-width: 100%;
-    height: auto;
-}
-
-* {margin: 0; padding: 0;}
- 
-a {text-decoration: none;}
- 
-/* This class is added on scroll */
-.fixed {
-    position: fixed;
-    top: 0;
-    height: 70px;
-    z-index: 1;
-}
-
-body {
-    color: #fff;
-    font-family: 'Roboto Slab'; 
-    font-size: 18px;
-    text-align: center;
-}
-.contact {
-	margin: 2em;
-	color: #111;
-}
-
-p {
-    font-size: 100%;
-}
-.title {
-    font-size: 180%;
-}
-.subtitle{
-	font-size:125%
-}
-/* roboto-slab-regular - latin_latin-ext */
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.svg#RobotoSlab') format('svg'); /* Legacy iOS */
-}
- 
-/* Navigation Settings */
-nav {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    background: #fff;
-}
- 
-nav li {
-    display: inline-block;
-    padding: 24px 10px;
-}
- 
-nav li a {
-    color: #757575;
-    text-transform: uppercase;
-}
-
-section {
-    height: 100vh;
-}
-
-/* Screens Settings */
-#screen1 {
-   background: #1f8dd6;
-}
- 
-#screen1 p {
-    padding-top: 200px;
-}
- 
-#screen2 {
-    background: #03445e;
-
-
-}
- .pdf{
-    width: 50%;
-    height: 75%;
-    margin-left: auto;
-    margin-right: auto;
+	  width:65%; 
+	  margin-left: auto;
+	  margin-right: auto;
  }
-#screen3 {
-    background: #051847;
+  
+*{
+	margin: 0;
+	padding: 0;
 }
- #screen4 {
-    background: #EAC67A;
-}
-#screen5 {
-    background: #051847;
-}
-@media only screen and (max-width: 520px) {
- 
-    nav li {
-        padding: 24px 4px;
-    }
->>>>>>> 3fb9db84e939259d71e5f79587be5e4aebd2100b
- 
+a {
+	text-decoration: none;
+} 
 a:hover,
 a:focus {
-    text-decoration: underline;
-	 
+    text-decoration: underline;	 
 }
-   
+
+#menuStuff{}
+
   /* This class is added on scroll */
   .fixed {
 	  position: fixed;
@@ -134,7 +52,7 @@ a:focus {
   
   body {
 	  color: #fff;
-	   font-family: "Roboto Slab"; 
+	  font-family: "Roboto Slab"
 	  font-size: 18px;
 	  text-align: center;
   }
@@ -148,52 +66,41 @@ a:focus {
         /* Set your content font stack here: */
         font-family: "Roboto Slab", Times, "Times New Roman", serif;
 		font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.svg#RobotoSlab') format('svg'); /* Legacy iOS */
+  		font-weight: 400;
     }
-	
 	
   .contact {
 	  margin: 2em;
-	  color: black;
   }
   
   p {
 	  font-size: 100%;
   }
-  .title {
+  
+  #title {
 	  font-size: 150%;
   }
-  .subtitle{
+  #subtitle{
 	  font-size:125%
   }
   /* roboto-slab-regular - latin_latin-ext */
 @font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/roboto-slab-v7-latin_latin-ext-regular.svg#RobotoSlab') format('svg'); /* Legacy iOS */
-}
+	font-family: 'Roboto Slab';
+	src: url('webfont.eot'); /* IE9 Compat Modes */
+	src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('webfont.woff') format('woff'), /* Modern Browsers */
+	     url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	}
    
   /* Navigation Settings */
   nav {
 	  position: absolute;
-	  top: 0;
+	  bottom: 1;
 	  width: 100%;
-	  height: 70px;
+	  height: 3.5em;
 	  background: #fff;
+	  
   }
    
   nav li {
@@ -216,7 +123,7 @@ a:focus {
   }
    
   #screen1 p {
-	  padding-top: 200px;
+	  padding-top: 220px;
   }
    
   #screen2 {
@@ -224,8 +131,8 @@ a:focus {
   
   
   }
-   .pdf{
-	  width: 50%;
+  .pdf {
+	  width: 90%;
 	  height: 75%;
 	  margin-left: auto;
 	  margin-right: auto;
@@ -237,7 +144,8 @@ a:focus {
 	  background: #EAC67A;
   }
   #screen5 {
-	  background: #051847;
+	  background: #03445e;
+	  padding: 24px 15px;
   }
   @media only screen and (max-width: 520px) {
    
@@ -267,18 +175,25 @@ a:focus {
 	  text-align: left;
   }
   aside {
-	  background: #1f8dd6; /* same color as selected state on site menu */
+	  background: #1f8dd6; /* turqoise subtitle banners */
 	  padding: 0.3em 1em;
 	  border-radius: 3px;
 	  color: #fff;
 	  margin-bottom: 2em;
 	  
   }
-  
+  aside2 {
+	  background: #1f8dd6; /* turqoise subtitle banners */
+	  padding: 0.3em 1em;
+	  border-radius: 3px;
+	  color: #fff;
+	  margin-bottom: 2em;
+	  
+  }
   /*Contact form*/
   textarea {
 	width: 100%;
-	
+	resize: none;
   }
   .content-head {
 	font-weight: 400;
@@ -306,8 +221,8 @@ a:focus {
 	  color: white;
   }
   
-  #name, #email {
-	width: 50%;
+  #name, #email, #color {
+	width: 100%;
 	
   }
   
@@ -315,5 +230,23 @@ a:focus {
 	  color: black;
   }
   
+  .footie{
+	  font-size: 60%;
+	  text-align:left;
+	  margin: 2em 0 1em;
+	  letter-spacing: 0.1em;
+	  	  margin-left: auto;
+	  margin-right: auto;
+  }
   
-  
+.l-box {
+    padding: 1em;
+	
+}
+
+.alignLeft{
+	font-size: 60%;
+}
+#makeItBlack{
+	color: #000;
+}
