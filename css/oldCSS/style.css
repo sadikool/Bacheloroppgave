@@ -1,0 +1,390 @@
+
+/*Group member drop down menus*/
+.w {
+	text-decoration:none;
+}
+.z {
+	color: #000000;
+}
+/* Spire in header text*/
+#screen1 #title a{
+	color: #8EBC08;
+}
+
+#screen1 #title a:hover {
+	color: #252839;
+}
+
+
+
+/*image view properties*/
+.pure-img {
+	max-width: 100%;
+	height: auto;
+	width:65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: underline;
+}
+/* This class is added on scroll */
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;
+}
+
+body {
+	color: #fff;
+	font-family: "Roboto Slab";
+	font-size: 18px;
+	text-align: center;
+
+	padding: 0px;
+
+	position: relative;
+	-webkit-transform-origin: 0px 0px;
+
+}
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+	/* Set your content font stack here: */
+	font-family: "Roboto Slab", Times, "Times New Roman", serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+p {
+	font-size: 100%;
+}
+
+#title {
+	font-size: 150%;
+}
+#subtitle{
+	font-size:125%
+}
+/* roboto-slab-regular - latin_latin-ext */
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url('webfont.eot'); /* IE9 Compat Modes */
+	src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('webfont.woff') format('woff'), /* Modern Browsers */
+	url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Navigation Settings */
+nav {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 1.5em;
+	background: #ffffff;
+	text-align: left;
+	z-index: 5;
+}
+
+nav li {
+	display: block;
+	padding: 24px 10px;
+	text-align: left;
+}
+
+nav li a {
+	color: #757575;
+	text-transform: uppercase;
+}
+
+section {
+	height: 100vh;
+}
+
+/* Screens Settings */
+#screen1 {
+	background: #1f8dd6;
+}
+#screen1 h1 {
+	/*padding-top: 180px;*/
+}
+#screen1 p {
+	/*padding-top: 200px;*/
+}
+
+#screen2 {
+	background: #03445e;
+
+
+}
+.pdf {
+	width: 90%;
+	height: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#screen3 {
+	background: #051847;
+}
+#screen4 {
+	background: #EAC67A;
+}
+#screen5 {
+	background: #03445e;
+
+}
+@media only screen and (max-width: 520px) {
+
+	nav li {
+		padding: 24px 4px;
+	}
+
+	nav li a {
+		font-size: 18px;
+	}
+
+}
+
+.pure-menu-children{
+	text-align: left;
+}
+.pure-group{
+	text-align: left;
+}
+
+aside {
+	background: #1f8dd6; /* turqoise subtitle banners */
+	padding: 0.3em 1em;
+	border-radius: 3px;
+	color: #fff;
+	margin-bottom: 2em;
+
+}
+
+/*Contact form*/
+textarea {
+	width: 100%;
+	resize: none;
+}
+.content-head {
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin: 2em 0 1em;
+}
+.is-center {
+	text-align: center;
+}
+
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary  {
+	color: white;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+.button-success {
+	background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-error {
+	background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+	background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+	background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+.button-xlarge {
+	font-size: 125%;
+}
+button {
+	float: left;
+}
+
+.formLabelColor{
+	color: white;
+}
+
+#name, #email, #color {
+	width: 100%;
+
+}
+
+.picIDs{
+	color: black;
+}
+.two {
+	background: #1f8dd6; /* turqoise subtitle banners */
+	padding: 0.3em 1em;
+	border-radius: 3px;
+	color: #fff;
+	margin-bottom: 2em;
+
+}
+.three {
+	background: #252839; /* turqoise subtitle banners */
+	padding: 0.3em 1em;
+	border-radius: 3px;
+	color: #fff;
+	margin-bottom: 2em;
+
+}
+.footie{
+	font-size: 90%;
+	text-align:center;
+	padding: 0.3em 1em;
+	letter-spacing: 0.1em;
+
+}
+
+.l-box {
+	padding: 1em;
+
+}
+
+.alignLeft{
+	font-size: 60%;
+}
+#makeItBlack{
+	color: #000;
+}
+.custom-wrapper {
+	background-color: #252839;/*#ffd390;*/
+	margin-bottom: 1em;
+	-webkit-font-smoothing: antialiased;
+	height: 2.1em;
+	overflow: hidden;
+	-webkit-transition: height 0.5s;
+	-moz-transition: height 0.5s;
+	-ms-transition: height 0.5s;
+	transition: height 0.5s;
+
+
+
+}
+
+.custom-wrapper.open {
+	height: 14em;
+}
+
+.custom-menu-3 {
+	text-align: right;
+}
+
+/*Nav menu open and close items*/
+.custom-toggle {
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+
+.custom-toggle .bar {
+	background-color: #777;
+	display: block;
+	width: 20px;
+	height: 2px;
+	border-radius: 100px;
+	position: absolute;
+	top: 18px;
+	right: 7px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.custom-toggle .bar:first-child {
+	-webkit-transform: translateY(-6px);
+	-moz-transform: translateY(-6px);
+	-ms-transform: translateY(-6px);
+	transform: translateY(-6px);
+}
+
+.custom-toggle.x .bar {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.custom-toggle.x .bar:first-child {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+@media (max-width: 47.999em) {
+
+	.custom-menu-3 {
+		text-align: left;
+	}
+
+	.custom-toggle {
+		display: block;
+	}
+
+}
+
+/* Home button */
+.custom-toggle2 {
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.custom-toggle2 .bar {
+	background-color: #777;
+	display: block;
+	width: 20px;
+	height: 2px;
+	border-radius: 100px;
+	position: absolute;
+	top: 18px;
+	left: 7px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+
+.pure-button {
+	background-color: #1f8dd6;
+	color: white;
+	padding: 0.5em 2em;
+	border-radius: 5px;
+}
+
+a.pure-button-primary {
+	background: white;
+	color: #1f8dd6;
+	border-radius: 5px;
+	font-size: 120%;
+}
