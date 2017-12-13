@@ -607,7 +607,11 @@ button {
     .l-box-lrg {
         border: none;
     }
-
+    
+    .object-custom{
+        text-align: center;
+        height: 90vh;
+    }
 }
 
 /*
