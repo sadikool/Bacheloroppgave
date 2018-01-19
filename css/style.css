@@ -574,7 +574,9 @@ button {
         font-size: 115%;
     }
     /* Hide home menu item from nav on tablet sized screens */
-    #forprosjektr{
+    #forprosjektr
+        #statusr,
+        #skissen {
         display: none;
     }
 
