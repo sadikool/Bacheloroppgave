@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
           content="Prosjektsiden for bachelorprosjekten i data/informasjonsteknologi ved HiOA | Gruppe 2"/>
-    <title>Vår 2018 | Bachelorprosjekt i data/informasjonsteknologi ved HiOA | Gruppe 2</title>
+    <title>Vår 2018 | Bachelorprosjekt i data/informasjonsteknologi ved OsloMet | Gruppe 2</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css"/> <!-- Main stylesheet /-->
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
@@ -97,7 +97,7 @@
     }
 
     /*Change Spire menu text color*/
-    #link2Spire{
+    #link2Spire {
         color: #FFE900;
     }
     /*Change Status report menu text color*/
@@ -110,7 +110,10 @@
     }
     /*Change Contact menu text color*/
     #kontakt{
-        color: #FFE900
+        color: #FFE900;
+    }
+    #forprosjektr{
+        color: #FFE900;
     }
     #docs{
         color: #FFE900
@@ -157,7 +160,7 @@
                     <ul class="pure-menu-list">
                         <li class="pure-menu-item"><a href="#" class="pure-menu-link custom-link2" id="home"><i class="fa fa-home"></i>&nbsp;Home</a></li>
                         <li class="pure-menu-item"><a href="#screen6" class="pure-menu-link custom-link5" id="kontakt"><i class="fa fa-hand-spock-o"></i>&nbsp;Kontakt</a></li>
-                        <li class="pure-menu-item"><a href="#screen7" class="pure-menu-link custom-link6" id="link2Spire"><i class="fa fa-external-link"></i>&nbsp;Spire</a></li>
+                        <li class="pure-menu-item"><a href="#screen7" class="pure-menu-link custom-link6, spireLinkSplash" id="link2Spire"><i class="fa fa-external-link"></i>&nbsp;Spire</a></li>
                     </ul>
                 </div>
             </div>
@@ -166,6 +169,7 @@
                     <ul class="pure-menu-list">
                         <li class="pure-menu-item"><a href="#screen4" class="pure-menu-link custom-link4" id="statusr"><i class="fa fa-file-pdf-o"></i>&nbsp;Statusrapport</a></li>
                         <li class="pure-menu-item"><a href="#screen5" class="pure-menu-link custom-link4" id="skissen"><i class="fa fa-file-pdf-o"></i>&nbsp;Prosjektskisse</a></li>
+                        <li class="pure-menu-item"><a href="#screen8" class="pure-menu-link custom-link4" id="forprosjektr"><i class="fa fa-file-pdf-o"></i>&nbsp;Forprosjektrapport</a></li>
                         <li class="pure-menu-item"><a href="#docHeader" class="pure-menu-link custom-link4" id="docs"><i class="fa fa-codepen"></i>&nbsp;Dokumenter</a></li>
                     </ul>
                 </div>
@@ -175,8 +179,8 @@
         <section id="screen2">
             <div class="splash-container">
                 <div class="splash">
-                    <h1 class="splash-head">Utvikling av medlemsdatabase (og evt. webside) for <a href="#screen7" class="spireLinkSplash"><img src="img/spire.png" alt="Spire's logo" class="pure-img"></a></h1>
-                    <p class="splash-subhead">Bachelorprosjekt i data/informasjonsteknologi<br> HiOA, 2017/2018</p>
+                    <h1 class="splash-head">Utvikling av Spires Medlemsregister<!--<a href="#screen7" class="spireLinkSplash"><img src="img/spire.png" alt="Spire's logo" class="pure-img"></a> --></h1>
+                    <p class="splash-subhead">Bachelorprosjekt i data/informasjonsteknologi<br> OsloMet, 2017/2018</p>
                 </div>
             </div>
         </section>
@@ -270,6 +274,7 @@
                                 </a>&nbsp;<a href="docs/statusrapport.pdf" class="linkOut2">Statusrapport</a></h3>
                         </div>
                         <div class="content pure-u-2-5 pure-u-md-1 pure-u-lg-1">
+                            <p class="is-center"><em>Frist: 20.10.2017</em></p>
                     <div class="object-custom">
                         <object data="docs/statusrapport.pdf"
                                 type="application/pdf" class="pdf">
@@ -287,7 +292,7 @@
                         </a>&nbsp;<a href="docs/prosjektskissen.pdf" class="linkOut2">Prosjektskisse</a></h3>
                         </div>
                         <div class="content pure-u-2-5 pure-u-md-1 pure-u-lg-1">
-
+                            <p class="is-center"><em>Frist: 1.12.2017</em></p>
                     <div class="object-custom">
                         <object data="docs/prosjektskissen.pdf"
                                 type="application/pdf" class="pdf">
@@ -302,19 +307,17 @@
                 <div class="pure-u-1 pure-u-lg-1-2">
                     <div class="pure-g">
                         <div class="content pure-u-3-5 pure-u-md-1 pure-u-lg-1">
-                            <h3 class="content-subhead is-center" id="screen8"><a href="https://www.cs.hioa.no/data/bachelorprosjekt/Forprosjekt.php" class="linkOut">
-                                <i class="fa fa-slack"></i></a>&nbsp;<a href="#screen8" class="linkOut2">Forprosjektrapport</a></h3>
+                            <h3 class="content-subhead is-center" id="screen8"><a href="https://www.cs.hioa.no/data/bachelorprosjekt/Forprosjekt.php" class="linkOut"><i class="fa fa-slack"></i>
+                            </a>&nbsp;<a href="#docs/prosjektskissen.pdf" class="linkOut2">Forprosjektrapport</a></h3>
                         </div>
                         <div class="content pure-u-2-5 pure-u-md-1 pure-u-lg-1">
-                            <p class="is-center"><em>Kommer 19.1.2018</em></p>
-                            <!--
+                            <p class="is-center"><em>Frist: 19.1.2018</em></p>
                             <div class="object-custom">
-                                <object data="docs/forprosjektrapporten.pdf"
+                                <object data="docs/prosjektskissen.pdf"
                                         type="application/pdf" class="pdf">
-                                    <a href="docs/forprosjektrapporten.pdf">forprosjektrapporten.pdf</a>
+                                    <a href="docs/prosjektskissen.pdf">forprosjektrapporten.pdf</a>
                                 </object>
                             </div>
-                            -->
                         </div>
                     </div>
                 </div>
@@ -326,7 +329,7 @@
                                 <i class="fa fa-slack"></i></a>&nbsp;<a href="#screen9" class="linkOut2">Prosjektrapport</a></h3>
                         </div>
                         <div class="content pure-u-2-5 pure-u-md-1 pure-u-lg-1">
-                            <p class="is-center"><em>Kommer 23.5.2018</em></p>
+                            <p class="is-center"><em>Frist 23.5.2018</em></p>
                             <!--
                             <div class="object-custom">
                                 <object data="docs/prosjektskissen.pdf"
@@ -405,8 +408,8 @@
                 </div>
             </div>
             <div class="footer l-box is-center">
-                <p class="footerText"> Bachelorprosjekt i data/informasjonsteknologi, HiOA, 2017/2018&nbsp;&nbsp;<i class="fa fa-ellipsis-v"></i>&nbsp;&nbsp;
-                    <a href="https://www.cs.hioa.no/data/bachelorprosjekt/" class="custom-link3"><i class="fa fa-external-link"></i>&nbsp;Prosjektnettside på HiOA</a></p>
+                <p class="footerText"> Bachelorprosjekt i data/informasjonsteknologi, OsloMet, 2017/2018&nbsp;&nbsp;<i class="fa fa-ellipsis-v"></i>&nbsp;&nbsp;
+                    <a href="https://www.cs.hioa.no/data/bachelorprosjekt/reg/" class="custom-link3"><i class="fa fa-external-link"></i>&nbsp;Prosjektnettside på OsloMet</a></p>
             </div>
 
         </div>

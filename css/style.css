@@ -154,6 +154,9 @@ nav {
 #skissen{
     color: #FF7A00;
 }
+#forprosjektr{
+    color: #FF7A00;
+}
 /*Change Contact menu text color*/
 #kontakt{
     color: #FF7A00
@@ -195,7 +198,7 @@ nav {
     background-color: #502982;
     margin-bottom: 1em;
     -webkit-font-smoothing: antialiased;
-    height: 2.6em;
+    height: 3.6em;
     overflow: hidden;
     -webkit-transition: height 0.5s;
     -moz-transition: height 0.5s;
@@ -320,6 +323,7 @@ nav {
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
+    word-wrap: break-word;
 }
 
 /* This is the subheading that appears on the purple section */
@@ -570,11 +574,10 @@ button {
         font-size: 115%;
     }
     /* Hide home menu item from nav on tablet sized screens */
-    #home2,
-    #statusr,
-    #skissen {
+    #forprosjektr{
         display: none;
     }
+
 
     /* Align the menu header to the left, but float the
     menu items to the right. */
@@ -607,11 +610,7 @@ button {
     .l-box-lrg {
         border: none;
     }
-    
-    .object-custom{
-        text-align: center;
-        height: 90vh;
-    }
+
 }
 
 /*
@@ -627,11 +626,12 @@ button {
 
     /* Show project docs */
     #statusr,
-    #skissen {
+    #skissen,
+    #forprosjektr{
         display: block;
     }
 
-    /* Hide "Prosjektdokumenter" */
+    /* Hide "Dokumenter" */
     #docs {
         display: none;
     }
