@@ -11,7 +11,7 @@
  */
 body {
     line-height: 1.7em;
-    color: #7f8c8d;
+    color: #727077;
     font-size: 13px;
 }
 
@@ -33,7 +33,7 @@ h4,
 h5,
 h6,
 label {
-    color: #34495e;
+    color: #20232A;
 }
 
 
@@ -99,11 +99,11 @@ label {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu {
-    background: #340570; /*252c46*/
+    background: #F4F4EF;
 }
 
 .home-menu .pure-menu-heading {
-    color: #FFE900;
+    color: #A01D26;
     font-weight: 400;
     font-size: 110%;
 }
@@ -136,24 +136,6 @@ nav {
     top: 0;
     width: 100%;
 }
-/* --SUBMENUS 2 AND 3 STYLE SETTINGS-- */
-
-/*Change home buttons, contact and link to Spire*/
-#home,
-#home2,
-#kontakt,
-#link2Spire {
-    color: #FFE900;
-}
-
-/*Change documents buttons*/
-#statusr,
-#skissen,
-#forprosjektr,
-#docs {
-    color: #FFE900;
-}
-
 
 
 /*
@@ -162,7 +144,7 @@ nav {
 
 /* Nav menu container color and height */
 .custom-wrapper {
-    background-color: #502982;
+    background-color: #F4FEEF;
     margin-bottom: 1em;
     -webkit-font-smoothing: antialiased;
     height: 2.6em;
@@ -217,7 +199,7 @@ nav {
 }
 
 .custom-toggle .bar {
-    background-color: #FFE900;
+    background-color: #20232A;
     display: block;
     width: 20px;
     height: 2px;
@@ -259,7 +241,7 @@ nav {
 * This is the purple top section that appears on the page.
  */
 .splash-container {
-    background: #015965;
+    background: #A01D26;
     z-index: -1;
     overflow: hidden;
     width: 100%;
@@ -282,9 +264,9 @@ nav {
 
 /* This is the main heading that appears on the purple section */
 .splash-head {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    color: white;
+    color: #F4F4EF;
     border: 3px solid white;
     padding: 1em 1.6em;
     font-weight: 100;
@@ -295,7 +277,7 @@ nav {
 
 /* This is the subheading that appears on the purple section */
 .splash-subhead {
-    color: white;
+    color: #F4F4EF;
     letter-spacing: 0.05em;
     opacity: 0.8;
 }
@@ -331,7 +313,7 @@ nav {
 
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
-    color: white;
+    color: #F4F4EF;
 }
 
 /* This is the class used for the content sub-headers (<h3>) */
@@ -344,24 +326,19 @@ nav {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #2d3e50;
-    color: #aaa;
-    padding: 1em 1em 3em;
-}
-/* This is a second class used for dark-background areas. */
-.ribbon2 {
-    background: #8443D6;
-    color: #aaa;
+    background: #20232A;
+    color: #ACBEBE;
     padding: 1em 1em 3em;
 }
 
+
 /* This is the class used for the footer */
 .footer {
-    background: #2d3e50;
+    background: #F4F4EF;
     position: fixed;
     bottom: 0;
     width: 100%;
-    color: white;
+    color: #20232A;
     font-size: 80%;
 }
 /* This is the class used for the footer text */
@@ -440,11 +417,18 @@ textarea {
 
 /* Change hover color of link*/
 .custom-link3:hover {
-    background-color: #FF7A00;
+    background-color: #A01D26;
 
 }
 
-
+/* Footer custom link */
+.custom-link8 {
+    color: #20232A;
+}
+/* Change hover color of link */
+.custom-link8:hover {
+    color: #A01D26;
+}
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
