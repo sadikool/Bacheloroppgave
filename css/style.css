@@ -36,13 +36,7 @@ label {
     color: #34495e;
 }
 
-html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
-    /* Set your content font stack here: */
-    font-family:  "Droid Sans", "Helvetica Neue", "Times New Roman", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-}
+
 /*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
@@ -160,30 +154,7 @@ nav {
     color: #FFE900;
 }
 
-/*Change hover color of these two sub menus*/
-.custom-link2:hover {
-    background-color: #5FC0CE;
-}
-.custom-link5:hover {
-    background-color: #03899C;
-}
-.custom-link6:hover {
-    background-color: #1F6B75;
-}
-/*Change hover color of these two sub menus*/
-.custom-link4:hover {
-    background-color: #015965;
-}
-/* Link to HiOA forprosjekt website */
-.linkOut {
-    color: #34495e;
-}
-.linkOut:hover {
-    color: #FF7A00;
-}
-.linkOut2 {
-    color: #34495e;
-}
+
 
 /*
  *--NAV: CONTAINER SETTINGS--
@@ -473,59 +444,7 @@ textarea {
 
 }
 
-/*
-* -- PURE BUTTON STYLES --
-* Change pure-button elements
-*/
-.pure-button {
-    background-color: #1f8dd6;
-    color: white;
-    padding: 0.5em 2em;
-    border-radius: 5px;
-}
 
-a.pure-button-primary {
-    background: white;
-    color: #1f8dd6;
-    border-radius: 5px;
-    font-size: 120%;
-}
-
-#menuLink1, #menuLink2, #menuLink3, #menuLink4 {
-    background-color: #FF7A00;
-    color: white;
-    padding: 0.5em 2em;
-    border-radius: 5px;
-}
-
-
-/* Custom button shapes */
-.button-success,
-.button-secondary  {
-    border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-
-}
-
-/* Make SEND button green in the contact form */
-.button-success {
-    background: rgb(28, 184, 65); /* this is a green */
-}
-
-/* Make button text size larger */
-.button-xlarge {
-    font-size: 115%;
-}
-
-/* Make button float left */
-button {
-    float: left;
-}
-
-/* Make button float left */
-button2 {
-    width: 100%;
-}
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
