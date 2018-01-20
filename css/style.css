@@ -36,6 +36,13 @@ label {
     color: #34495e;
 }
 
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family:  "Droid Sans", "Helvetica Neue", "Times New Roman", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
 /*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
@@ -137,33 +144,22 @@ nav {
 }
 /* --SUBMENUS 2 AND 3 STYLE SETTINGS-- */
 
-/*Change home menu text color*/
-#home{
-    color: #FF7A00;
+/*Change home buttons, contact and link to Spire*/
+#home,
+#home2,
+#kontakt,
+#link2Spire {
+    color: #FFE900;
 }
 
-/*Change Spire menu text color*/
-#link2Spire{
-    color: #FF7A00;
+/*Change documents buttons*/
+#statusr,
+#skissen,
+#forprosjektr,
+#docs {
+    color: #FFE900;
 }
-/*Change Status report menu text color*/
-#statusr{
-    color: #FF7A00;
-}
-/*Change Project overview menu text color*/
-#skissen{
-    color: #FF7A00;
-}
-#forprosjektr{
-    color: #FF7A00;
-}
-/*Change Contact menu text color*/
-#kontakt{
-    color: #FF7A00
-}
-#docs{
-    color: #FF7A00
-}
+
 /*Change hover color of these two sub menus*/
 .custom-link2:hover {
     background-color: #5FC0CE;
@@ -198,7 +194,7 @@ nav {
     background-color: #502982;
     margin-bottom: 1em;
     -webkit-font-smoothing: antialiased;
-    height: 3.6em;
+    height: 2.6em;
     overflow: hidden;
     -webkit-transition: height 0.5s;
     -moz-transition: height 0.5s;
@@ -206,9 +202,9 @@ nav {
     transition: height 0.5s;
 }
 
-/* Toggle menu height */
+/* Toggle menu height when opened */
 .custom-wrapper.open {
-    height: 13.5em;
+    height: 16.5em;
 }
 
 /* Submenu 3 items aligned to the right */
@@ -478,9 +474,9 @@ textarea {
 }
 
 /*
- * -- PURE BUTTON STYLES --
- * Change pure-button elements
- */
+* -- PURE BUTTON STYLES --
+* Change pure-button elements
+*/
 .pure-button {
     background-color: #1f8dd6;
     color: white;
@@ -496,11 +492,12 @@ a.pure-button-primary {
 }
 
 #menuLink1, #menuLink2, #menuLink3, #menuLink4 {
-    background-color: #1F6B75;
+    background-color: #FF7A00;
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
 }
+
 
 /* Custom button shapes */
 .button-success,
@@ -524,7 +521,9 @@ a.pure-button-primary {
 button {
     float: left;
 }
-.button2 {
+
+/* Make button float left */
+button2 {
     width: 100%;
 }
 /*
@@ -574,9 +573,9 @@ button {
         font-size: 115%;
     }
     /* Hide home menu item from nav on tablet sized screens */
-    #forprosjektr
-        #statusr,
-        #skissen {
+    #forprosjektr,
+    #statusr,
+    #skissen {
         display: none;
     }
 
