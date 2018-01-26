@@ -13,7 +13,6 @@ body {
     line-height: 1.7em;
     color: #727077;
     font-size: 13px;
-    background-color: #F4FEEF;
 }
 
 a {
@@ -145,7 +144,7 @@ nav {
 
 /* Nav menu container color and height */
 .custom-wrapper {
-    background-color: #F4FEEF;
+    background-color: #F6F6E8;
     margin-bottom: 1em;
     -webkit-font-smoothing: antialiased;
     height: 2.6em;
@@ -284,7 +283,7 @@ nav {
 }
 .splash2 {
     /* absolute center .splash within .splash-container */
-    width: 80%;
+    width: 95%;
     height: 50%;
     margin: auto;
     top: 100px; left: 0; bottom: 0; right: 0;
@@ -294,8 +293,8 @@ nav {
 
 .splash3 {
     /* absolute center .splash within .splash-container */
-    width: 80%;
-    height: 50%;
+    width: 95%;
+    height: 100%;
     margin: auto;
     top: 100px; left: 0; bottom: 0; right: 0;
     text-align: center;
@@ -322,7 +321,6 @@ nav {
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
-    word-wrap: break-word;
 
 }
 /* This is the subheading that appears on the purple section */
@@ -509,6 +507,7 @@ textarea {
         display: block;
     }
     /* Hide home menu item from nav on smaller screens */
+    #link2Spire,
     #home{
         display: none;
     }
@@ -516,6 +515,12 @@ textarea {
     /* Align subtitle for project document section to the middle */
     .custom-header1{
         text-align: center;
+    }
+    #screen9{
+        display: none;
+    }
+    #screen10{
+        display: none;
     }
 
 }
@@ -531,6 +536,7 @@ textarea {
         font-size: 115%;
     }
     /* Hide home menu item from nav on tablet sized screens */
+    #link2SpireSmallScreen,
     #forprosjektr,
     #statusr,
     #skissen {
@@ -549,9 +555,9 @@ textarea {
 
 
     /* Increase the height of the splash-container */
-    /*.splash-container {
+    .splash-container {
             height: 500px;
-        } */
+        }
 
     /* Decrease the width of the .splash, since we have more width
     to work with */
@@ -560,7 +566,7 @@ textarea {
         height: 50%;
     }
     .splash2 {
-        width: 70%;
+        width: 90%;
         height: 50%;
     }
 
@@ -569,7 +575,7 @@ textarea {
         font-size: 250%;
     }
     .splash-head2 {
-        font-size: 120%;
+        font-size: 110%;
     }
 
 
@@ -591,7 +597,7 @@ textarea {
         font-size: 300%;
     }
     .splash-head2 {
-        font-size: 200%;
+        font-size: 150%;
     }
     /* Show project docs */
     #statusr,
@@ -601,6 +607,7 @@ textarea {
     }
 
     /* Hide "Dokumenter" */
+    #link2SpireSmallScreen,
     #docs {
         display: none;
     }
