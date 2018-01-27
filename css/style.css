@@ -147,7 +147,7 @@ nav {
     background-color: #F6F6E8;
     margin-bottom: 1em;
     -webkit-font-smoothing: antialiased;
-    height: 2.6em;
+    height: 3em;
     overflow: hidden;
     -webkit-transition: height 0.5s;
     -moz-transition: height 0.5s;
@@ -157,7 +157,7 @@ nav {
 
 /* Toggle menu height when opened */
 .custom-wrapper.open {
-    height: 16.5em;
+    height: 22.5em;
 }
 
 /* Submenu 3 items aligned to the right */
@@ -201,8 +201,8 @@ nav {
 .custom-toggle .bar {
     background-color: #20232A;
     display: block;
-    width: 20px;
-    height: 2px;
+    width: 25px;
+    height: 3px;
     border-radius: 100px;
     position: absolute;
     top: 25px;
@@ -323,12 +323,13 @@ nav {
     line-height: 1em;
 
 }
-/* This is the subheading that appears on the purple section */
+/* This is the subheading that appears on the red section */
 .splash-subhead {
     color: #F4F4EF;
     letter-spacing: 0.05em;
     opacity: 0.8;
 }
+/* This is the subheading that appears on the document section */
 .splash-subhead2 {
     color: #20232A;
     letter-spacing: 0.05em;
@@ -347,7 +348,7 @@ nav {
     width: 100%;
     min-height: 12%;
     z-index: 0;
-    background: white;
+    background: #F6F6E8;
 
 }
 
@@ -491,6 +492,11 @@ textarea {
     body {
         font-size: 115%;
     }
+    .splash-head2 {
+        font-size: 110%;
+    }
+
+
     .custom-menu-3 {
         text-align: left;
     }
@@ -575,7 +581,7 @@ textarea {
         font-size: 250%;
     }
     .splash-head2 {
-        font-size: 110%;
+        font-size: 90%;
     }
 
 

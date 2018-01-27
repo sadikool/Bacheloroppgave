@@ -69,6 +69,10 @@
         background-color: #B2565C;
         color: #ACBEBE;
     }
+    .custom-link7:hover {
+        background-color: #ACBEBE;
+        color: #ACBEBE;
+    }
     /*Change hover color of these two sub menus*/
     .custom-link4:hover {
         background-color: #B2565C;
@@ -153,20 +157,20 @@
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pure-menu pure-menu-horizontal custom-menu-2 custom-can-transform">
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link custom-link2" id="home"><i class="fa fa-home"></i>&nbsp;Home</a></li>
-                    <li class="pure-menu-item"><a href="#screen8" class="pure-menu-link custom-link5" id="kontakt"><i class="fa fa-hand-spock-o"></i>&nbsp;Kontakt</a></li>
-                    <li class="pure-menu-item"><a href="#screen9" class="pure-menu-link custom-link6" id="link2Spire"><i class="fa fa-external-link"></i>&nbsp;Spire</a></li>
-                    <li class="pure-menu-item"><a href="https://spireorg.no/" class="pure-menu-link custom-link6" target="_blank" id="link2SpireSmallScreen"><i class="fa fa-external-link"></i>&nbsp;<img src="img/spire.png" alt="Spire's logo" width="65px" height="25px"></a></li>
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link custom-link2" id="home"><i class="fa fa-home fa-2x"></i>&nbsp;Hjem</a></li>
+                    <li class="pure-menu-item"><a href="#screen8" class="pure-menu-link custom-link5" id="kontakt"><i class="fa fa-hand-spock-o fa-2x"></i>&nbsp;Kontakt</a></li>
+                    <li class="pure-menu-item"><a href="#screen9" class="pure-menu-link custom-link6" id="link2Spire"><i class="fa fa-external-link fa-2x"></i>&nbsp;Spire</a></li>
+                    <li class="pure-menu-item"><a href="https://spireorg.no/" class="pure-menu-link custom-link6" target="_blank" id="link2SpireSmallScreen"><i class="fa fa-external-link fa-2x"></i>&nbsp;<img src="img/spire.png" alt="Spire's logo" width="65px" height="25px"></a></li>
                 </ul>
             </div>
         </div>
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pure-menu pure-menu-horizontal custom-menu-3 custom-can-transform">
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="#screen4" class="pure-menu-link custom-link4" id="statusr"><i class="fa fa-file-pdf-o"></i>&nbsp;Statusrapport</a></li>
-                    <li class="pure-menu-item"><a href="#screen5" class="pure-menu-link custom-link4" id="skissen"><i class="fa fa-file-pdf-o"></i>&nbsp;Prosjektskisse</a></li>
-                    <li class="pure-menu-item"><a href="#screen6" class="pure-menu-link custom-link4" id="forprosjektr"><i class="fa fa-file-pdf-o"></i>&nbsp;Forprosjektrapport</a></li>
-                    <li class="pure-menu-item"><a href="#docHeader" class="pure-menu-link custom-link4" id="docs"><i class="fa fa-codepen"></i>&nbsp;Dokumenter</a></li>
+                    <li class="pure-menu-item"><a href="#docHeader" class="pure-menu-link custom-link7" id="docs"><i class="fa fa-codepen fa-2x"></i>&nbsp;Dokumenter</a></li>
+                    <li class="pure-menu-item"><a href="#screen4" class="pure-menu-link custom-link4" id="statusr"><i class="fa fa-file-pdf-o fa-2x"></i>&nbsp;Statusrapport</a></li>
+                    <li class="pure-menu-item"><a href="#screen5" class="pure-menu-link custom-link4" id="skissen"><i class="fa fa-file-pdf-o fa-2x"></i>&nbsp;Prosjektskisse</a></li>
+                    <li class="pure-menu-item"><a href="#screen6" class="pure-menu-link custom-link4" id="forprosjektr"><i class="fa fa-file-pdf-o fa-2x"></i>&nbsp;Forprosjektrapport</a></li>
                 </ul>
             </div>
         </div>
@@ -364,6 +368,7 @@
     </div>
     <div class="content">
     <div class="ribbon l-box-lrg pure-g" id="screen9">
+
         <div class="l-box-lrg is-center pure-u-1">
             <h2 class="content-head is-center"><a href="https://spireorg.no" class="custom-link3" target="_blank">Spires nettside</a></h2>
         </div>
@@ -382,12 +387,42 @@
     </div>
     </div>
     <div class="footer l-box is-center">
-        <p class="footerText"> Bachelorprosjekt i informasjonsteknologi, 2018&nbsp;&nbsp;<i class="fa fa-ellipsis-v"></i>&nbsp;&nbsp;
-            <a href="https://www.cs.hioa.no/data/bachelorprosjekt/reg/" class="custom-link8"><i class="fa fa-external-link"></i>&nbsp;Prosjektoversikt på OsloMet.no</a></p>
+
+        <p class="footerText">Bachelorprosjekt i IT
+            &nbsp;&nbsp;
+            <i class="fa fa-ellipsis-v"></i>
+            &nbsp;&nbsp;
+            <a href="https://www.cs.hioa.no/data/bachelorprosjekt/reg/" class="custom-link8">
+                <i class="fa fa-external-link"></i>&nbsp;Prosjektoversikt (2018) på OsloMet.no
+            </a>
+            &nbsp;&nbsp;
+            <i class="fa fa-ellipsis-v"></i>
+            &nbsp;&nbsp;
+            <a class="custom-link8" onclick="openWin()"><i class="fa fa-desktop fa-2x" aria-hidden="true"></i></a>
+            &nbsp;&nbsp;
+            <a class="custom-link8" onclick="resizeWinTo()"><i class="fa fa-tablet fa-2x" aria-hidden="true"></i></a>
+            &nbsp;&nbsp;
+            <a class="custom-link8" onclick="resizeWinBy()"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>
+        </p>
     </div>
 
 </div>
+<script>
+    var myWindow;
+    function openWin() {
+        myWindow = window.open("https://sadikool.github.io/bachelorprosjekt/", "", "width=1280, height=1024");  // Opens a new window
+    }
 
+    function resizeWinTo() {
+        myWindow.resizeTo(1024, 768);
+        myWindow.focus();
+    }
+
+    function resizeWinBy() {
+        myWindow.resizeBy(-400, +150);
+        myWindow.focus();
+    }
+</script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
     $(document).ready(function () {
